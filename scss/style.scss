@@ -1,0 +1,61 @@
+body, *{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+$icon-size: 55px;
+
+.navbar{
+    background: rgba(58, 57, 57, 0.6);
+    border-bottom: 2px solid rgba(233, 13, 13, 0.5);
+    a{
+        
+        img{
+            width: 50px;
+        }
+    }
+}
+
+
+#home-bannar-section{
+    padding: 200px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/banner-min.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    input{
+        max-width: 500px;
+        margin: auto;
+    }
+}
+#home_icon{
+    #icon-box{
+        i{
+            font-size: $icon-size;
+        }
+    }
+    #icon-box:hover{
+        a{
+            i{
+                color: red;
+            }
+        }
+    }
+}
+
+
+
+#service{
+    .card{
+        i{
+            font-size: 50px;
+        }
+    }
+}
+#portfolio{
+    .mixitup-control-active{
+        background: white;
+        color: #000;
+    }
+}
